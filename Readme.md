@@ -18,14 +18,23 @@ The aim of this project is to perfrom Mobile Price prediction using multiple ML 
 ## Preprocessing
 
 The preprocessing steps of the proposed project are the following:
+
 **1. Feature Identification**
+
 **Numerical Features:** Identified by selecting columns with data types int64 or float64.
+
 **Categorical Features:** Identified by selecting columns with the data type object.
+
 **2. Pipeline for Numerical Features**
+
 **Imputation:** Handles missing values using the SimpleImputer with the strategy set to 'mean'. This replaces missing values with the mean of the respective column.
+
 **Scaling:** Normalizes the numerical features using the StandardScaler, which standardizes features by removing the mean and scaling to unit variance.
- **3.Pipeline for Categorical Features**
+
+ **3. Pipeline for Categorical Features**
+ 
 **Imputation:** Handles missing values using the SimpleImputer with the strategy set to 'most_frequent'. This replaces missing values with the most frequently occurring value in the column.
+
 **Encoding:** Converts categorical features into a one-hot encoded format using OneHotEncoder. The handle_unknown='ignore' parameter ensures that any new categories encountered during transformation are ignored, preventing errors.
 
 ## Models
