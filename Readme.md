@@ -79,3 +79,11 @@ For the mobile price prediction following models were trained with the tuned hyp
 <br>
 
 <img src = images/image1.png>
+
+<br>
+
+# Author
+**Bisma Saleem** <br>
+**Research Officer** <br>
+***National Center of Artificial Intelligence (NCAI)*** <br>
+*AL-Khawarizmi Institute of Computer Science (KICS)* UET Lahore <br>
